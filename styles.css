@@ -13,6 +13,18 @@ ul {
     padding:0px;
   }
 
+.infoText ul {
+    list-style: circle;
+}
+
+.infoText li {
+    margin: 4px;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
   
 .header, .Information {
     height: 150px;
@@ -53,7 +65,7 @@ ul {
 }
 
 .Web-Dev-Projects {
-    height: 1000px;
+    height: 1500px;
     background-color: #CDD7D6;
     color: black;
     padding:8px;
@@ -72,7 +84,7 @@ ul {
 
 }
 
-.WProject1, .WProject2, .GProject1 {
+.WProject1, .WProject2, .GProject1, .SProject1 {
     display: flex;
     flex:1;
     justify-content: space-between;
@@ -102,12 +114,25 @@ ul {
 
 }
 
+.Software-Dev-Projects {
+
+    height: 600x;
+    background-color: #ADD8E6;
+    color: black;
+    padding:8px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 .Game-Dev-Projects img {
     width: 400px;
     height: 300px;
 }
 
-.Game-Dev-Projects .LeftHalf {
+.Game-Dev-Projects .LeftHalf, .Software-Dev-Projects .LeftHalf {
     width: 850px;
     margin: 8px;
 }
@@ -118,6 +143,12 @@ ul {
     display: flex;
 }
 
+.Software-Dev-Projects .infoText {
+    font-size: 24px;
+    font-weight: #F9FAF8;
+    
+
+}
 
  
 H3 {
