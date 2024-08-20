@@ -1,5 +1,5 @@
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* or any other font from the suggestions */
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -21,7 +21,7 @@ ul {
 .infoText li {
     margin: 4px;
     font-size: 16px;
-    font-weight: bold;
+   
 
 
 }
@@ -46,7 +46,7 @@ ul {
     justify-content: space-around;
     height: 400px;
     font-size: 18px;
-    font-weight: #F9FAF8;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +83,7 @@ ul {
 
 .Web-Dev-Projects .infoText {
     font-size: 24px;
-    font-weight: #F9FAF8;
+
     display: flex;
 
 }
@@ -111,7 +111,7 @@ ul {
 }
 
 .Game-Dev-Projects {
-    height: 600px;
+    height: 650px;
     background-color: #B3A394;
     color: black;
     padding:8px;
@@ -150,13 +150,13 @@ ul {
 
 .Game-Dev-Projects .infoText {
     font-size: 24px;
-    font-weight: #F9FAF8;
+
     display: flex;
 }
 
 .Software-Dev-Projects .infoText {
     font-size: 24px;
-    font-weight: #F9FAF8;
+
     
 
 }
@@ -164,9 +164,9 @@ ul {
  
 H3 {
     font-size: 48px;
-    font-weight: #F9FAF8;
+    font-weight: 700;
     display: flex;
-    
+    font-family: 'Montserrat', sans-serif; /* For headings */
     padding:8px;
     
 }
@@ -180,9 +180,9 @@ H3 {
 
 H4 {
     font-size: 24px;
-    font-weight: #F9FAF8;
+    font-weight: 700;
     display: flex;
-    
+    font-family: 'Montserrat', sans-serif; /* For headings */
     padding:8px;
     
 }
@@ -204,7 +204,7 @@ img {
     background-color: #102542;
     color: white;
     font-size: 12px;
-    font-weight: #F9FAF8;
+    font-weight: 500;
 }
 
 a:link {
@@ -233,13 +233,13 @@ a:link {
     text-decoration: none;
   }
   
-  a:hover {
+  a:hover, .LeftHalf a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
   }
   
-  a:active {
+  a:active, .LeftHalf a:hover {
     color: rgb(0, 140, 255);
     background-color: transparent;
     text-decoration: underline;
