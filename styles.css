@@ -1,199 +1,127 @@
+/* General Styles */
 body {
-    font-family: 'Roboto', sans-serif; /* or any other font from the suggestions */
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: stretch;
-    margin:0;
-    
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding:0px;
-  }
+    margin: 0;
+    padding: 0;
+}
 
 .infoText ul {
     list-style: circle;
+    padding-left: 20px;
 }
 
 .infoText li {
     margin: 4px;
     font-size: 16px;
-   
-
-
 }
 
-  
 .header, .Information {
-    height: 150px;
     background-color: #102542;
     color: white;
-    padding:8px;
-    
-}  
+    padding: 16px;
+    text-align: center;
+}
 
 .header {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.Information {
-    display:flex;
-    justify-content: space-around;
-    height: 400px;
-    font-size: 18px;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.Information .infoText {
-    width: 700px;
-}
-
-.Information img {
-    width: 400px;
-    height: auto;
-    border-radius: 5%;
-}
-
-.LeftHalf {
-    width: 500px;
-}
-
-.Web-Dev-Projects {
-    height: 1500px;
-    background-color: #CDD7D6;
-    color: black;
-    padding:8px;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     
-
-}
-
-.Web-Dev-Projects .infoText {
-    font-size: 24px;
-
-    display: flex;
-
-}
-
-.WProject1, .WProject2, .GProject1, .SProject1 {
-    display: flex;
-    flex:1;
-    justify-content: space-between;
-    margin: 50px;
-}
-
-.Web-Dev-Projects .LeftHalf {
-    width: 850px;
-    margin: 8px;
-}
-
-.Information .LeftHalf {
-    width: 850px;
-    margin: 8px;
-}
-
-.Web-Dev-Projects ul, .Game-Dev-Projects ul {
-
-    margin: 8px;
-}
-
-.Game-Dev-Projects {
-    height: 650px;
-    background-color: #B3A394;
-    color: black;
-    padding:8px;
-    display:flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    
-
-}
-
-.Software-Dev-Projects {
-
-    height: 900px;
-    background-color: #ADD8E6;
-    color: black;
-    padding:8px;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-
-}
-
-.Game-Dev-Projects img {
-    width: 400px;
-    height: 300px;
-}
-
-.Game-Dev-Projects .LeftHalf, .Software-Dev-Projects .LeftHalf {
-    width: 850px;
-    margin: 8px;
-}
-
-.Game-Dev-Projects .infoText {
-    font-size: 24px;
-
-    display: flex;
-}
-
-.Software-Dev-Projects .infoText {
-    font-size: 24px;
-
-    
-
-}
-
- 
-H3 {
-    font-size: 48px;
-    font-weight: 700;
-    display: flex;
-    font-family: 'Montserrat', sans-serif; /* For headings */
-    padding:8px;
-    
+    gap: 16px;
 }
 
 .Links {
     display: flex;
-    justify-content: space-around;
-    margin: 15px;
+    flex-direction: row;
+    justify-content: center;
     gap: 24px;
 }
 
-H4 {
-    font-size: 24px;
-    font-weight: 700;
+.Information {
     display: flex;
-    font-family: 'Montserrat', sans-serif; /* For headings */
-    padding:8px;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #102542;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Information img, .Web-Dev-Projects img, .Game-Dev-Projects img, .Software-Dev-Projects img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Web-Dev-Projects, .Game-Dev-Projects, .Software-Dev-Projects {
+    color: black;
+    padding: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
     
 }
 
-img {
-    width: 400px;
+.Web-Dev-Projects {
+    background-color: #CDD7D6;
+}
+
+.Game-Dev-Projects {
+    background-color: #ffcb8b;
+}
+
+.Software-Dev-Projects {
+    background-color: #a091fd;
+}
+
+
+.WProject1, .WProject2, .GProject1, .SProject1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.Information .LeftHalf {
+    max-width: 60%; 
+    margin-right: 20px;
+}
+
+.Information img {
+    max-width: 35%;
     height: auto;
     border-radius: 5%;
-    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    
+}
+
+.LeftHalf {
+    width: 100%;
+    max-width: 850px;
+    margin: 8px;
+}
+
+.infoText {
+    text-align: left;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
 
 .Footer {
@@ -205,42 +133,50 @@ img {
     color: white;
     font-size: 12px;
     font-weight: 500;
+    text-align: center;
+    padding: 16px;
 }
 
-a:link {
-    color: White;
-    background-color: transparent;
+a {
+    color: inherit;
     text-decoration: none;
-  }
+}
 
-.LeftHalf a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-
-} 
-
-.LeftHalf a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-
-} 
-  
-  a:visited {
-    color: White;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover, .LeftHalf a:hover {
-    color: red;
-    background-color: transparent;
+a:hover {
     text-decoration: underline;
-  }
-  
-  a:active, .LeftHalf a:hover {
-    color: rgb(0, 140, 255);
-    background-color: transparent;
-    text-decoration: underline;
-  }
+}
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .Links {
+        gap: 16px;
+    }
+
+    .Information, .Web-Dev-Projects, .Game-Dev-Projects, .Software-Dev-Projects {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 32px;
+        text-align: left;
+    }
+
+    .WProject1, .WProject2, .GProject1, .SProject1 {
+        flex-direction: row;
+        margin: 32px 0;
+    }
+
+    .infoText {
+        max-width: 500px;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+}
