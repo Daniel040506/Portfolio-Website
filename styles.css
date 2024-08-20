@@ -5,6 +5,7 @@ body {
     flex: 1;
     align-items: stretch;
     margin:0;
+    
 }
 
 ul {
@@ -49,6 +50,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .Information .infoText {
@@ -74,6 +76,7 @@ ul {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     
 
 }
@@ -108,7 +111,7 @@ ul {
 }
 
 .Game-Dev-Projects {
-    height: 600x;
+    height: 600px;
     background-color: #B3A394;
     color: black;
     padding:8px;
@@ -116,13 +119,14 @@ ul {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     
 
 }
 
 .Software-Dev-Projects {
 
-    height: 600x;
+    height: 900px;
     background-color: #ADD8E6;
     color: black;
     padding:8px;
@@ -130,6 +134,7 @@ ul {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -186,6 +191,9 @@ img {
     width: 400px;
     height: auto;
     border-radius: 5%;
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 .Footer {
