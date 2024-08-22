@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+
+    overflow-x: hidden;
 }
 
 ul {
@@ -75,11 +77,11 @@ ul {
 }
 
 .Game-Dev-Projects {
-    background-color: #ffcb8b;
+    background-color: #ffe4c4;
 }
 
 .Software-Dev-Projects {
-    background-color: #a091fd;
+    background-color: #d5cfff;
 }
 
 
@@ -179,4 +181,34 @@ a:hover {
     h4 {
         font-size: 32px;
     }
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2000ms ease-in;
+    
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+
+.from-left {
+    transform: translateX(-50%);
+}
+
+.from-right {
+    transform: translateX(50%);
+}
+
+.from-left, .from-right {
+    transition: opacity 1500ms ease-in, transform 1000ms ease-in;
+    opacity: 0;
+}
+
+.from-left.appear, .from-right.appear {
+    transform: translateX(0);
+    opacity: 1;
 }
